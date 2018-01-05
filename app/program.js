@@ -29,7 +29,7 @@ process.stdin.on('readable', function() {
                 break;
                 
             case '/time':                       
-                timeFormat.format(5000);
+                timeFormat.format(1000);
                 break;
             
             default:
